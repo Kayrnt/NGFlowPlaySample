@@ -13,7 +13,7 @@ Using it
 
 Screenshot
 --------
-![Screenshot](https://raw.githubusercontent.com/Kayrnt/NGFlowPlaySample/blob/master/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/Kayrnt/NGFlowPlaySample/master/screenshot.jpg)
 
 Libraries used
 --------
