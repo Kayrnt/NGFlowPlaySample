@@ -1,0 +1,46 @@
+@(content: Html)
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>NG Flow sample app</title>
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("img/favicon.png")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("css/bootstrap.min.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("font-awesome/css/font-awesome.min.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("css/app.css")">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="@routes.Assets.versioned("lib/angularjs/angular.js")"></script>
+        <script src="@routes.Assets.versioned("js/ng-flow-standalone.js")"></script>
+        <script src="@routes.Assets.versioned("js/main.js")"></script>
+
+    </head>
+    <body>
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Play Ng-flow</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.kayrnt.fr">About</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div class="container">
+    @content
+
+
+</div><!-- /.container -->
+    </body>
+</html>
